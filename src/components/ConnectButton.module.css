@@ -1,0 +1,54 @@
+.connectContainer {
+  text-align: center;
+}
+
+.connectContainer h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.connectors {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #0052ff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  min-width: 200px;
+}
+
+.button:hover {
+  background-color: #0041cc;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.connected {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.address {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0;
+}
